@@ -4,11 +4,11 @@ import numpy as np
 f = lambda x : 1/(1 + x**2)
 a = 0; b = 5; N = 10
 
-# x and y values for the trapezoid rule
+
 x = np.linspace(a,b,N+1)
 y = f(x)
 
-# X and Y values for plotting y=f(x)
+
 X = np.linspace(a,b,100)
 Y = f(X)
 plt.plot(X,Y)
